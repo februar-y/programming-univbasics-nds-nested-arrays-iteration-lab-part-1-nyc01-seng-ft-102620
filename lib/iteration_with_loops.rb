@@ -12,6 +12,7 @@ def find_even_values(src)
         even << src[count][inner_count]
       inner_count += 1
       end
+    count += 1
     end
   end
   even
