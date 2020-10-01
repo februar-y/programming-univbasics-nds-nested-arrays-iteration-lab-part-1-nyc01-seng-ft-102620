@@ -11,7 +11,9 @@ def find_even_values(src)
       if src[count][inner_count] % 2 == 0
         even << src[count][inner_count]
       end
+      inner_count += 1
     end
-    even
+    count += 1
   end
+  even
 end
